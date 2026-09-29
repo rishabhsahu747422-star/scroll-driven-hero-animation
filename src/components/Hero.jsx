@@ -170,7 +170,7 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="relative h-screen overflow-hidden bg-[#f4f1eb]"
+      className="relative h-screen overflow-hidden bg-[linear-gradient(135deg,#F4F1EB_0%,#EDE9F7_50%,#F6EDE8_100%)]"
     >
       <div className="sticky top-0 flex h-screen flex-col overflow-hidden px-6 py-8">
         <div className="pointer-events-none absolute left-1/2 top-1/2 h-[450px] w-[450px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-300/30 blur-[100px]" />
@@ -184,11 +184,11 @@ const Hero = () => {
               Introducing
             </p>
 
-            <h2 className="hero-intro-name mt-4 text-6xl font-black uppercase leading-[0.8] tracking-[-0.05em] md:text-8xl">
+            <h2 className="hero-intro-name mt-4 text-6xl text-[#111111] uppercase leading-[0.8] tracking-[-0.05em] md:text-8xl">
               Rishabh
             </h2>
 
-            <h2 className="hero-intro-name text-6xl font-black uppercase leading-[0.8] tracking-[-0.05em] md:text-8xl">
+            <h2 className="hero-intro-name text-6xl text-[#6C5CE7] uppercase leading-[0.8] tracking-[-0.05em] md:text-8xl">
               Sahu
             </h2>
           </div>

@@ -9,7 +9,7 @@ const ScrollVisual = ({ visualRef }) => {
         <div className="absolute h-full w-full rounded-full bg-gradient-to-br from-violet-500 via-fuchsia-500 to-orange-400 shadow-2xl" />
 
         {/* Small orbit elements */}
-        <div className="hero-orbit-1 absolute -right-4 top-8 h-5 w-5 rounded-full bg-orange-400 md:-right-6 md:h-7 md:w-7" />
+        <div className="hero-orbit-1 absolute -right-4 top-8 h-5 w-5 rounded-full bg-[#E88B5A] md:-right-6 md:h-7 md:w-7" />
 
         <div className="hero-orbit-2 absolute -bottom-2 left-4 h-3 w-3 rounded-full bg-violet-500 md:-bottom-3 md:h-5 md:w-5" />
 
